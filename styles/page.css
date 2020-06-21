@@ -6,13 +6,19 @@
 .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 
 #bg {
-  position: fixed;
+  /* position: fixed;
   top: -50%;
   left: -50%;
   width: 200%;
-  height: 200%;
+  height: 200%; */
+  background-image: url("../images/bg-top-01.jpeg");
+  height: 80%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#bg img {
+/* #bg img {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +29,8 @@
   min-height: 50%;
   width: 100%;
   opacity: 0.9;
-}
+} */
+
 
 @font-face {
     font-family: 'bg-title';
@@ -33,7 +40,7 @@
 .centered {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'bg-title';
@@ -43,4 +50,9 @@
 
 .name{
   color: #a2de96;
+}
+
+.about{
+  display: block;
+  height: 100px;
 }
