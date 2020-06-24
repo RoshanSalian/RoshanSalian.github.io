@@ -1,17 +1,4 @@
-/* @font-face {
-    font-family: 'bg-title';
-    src: url('../font/Satisfy-Regular.ttf');
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400&family=Satisfy&display=swap');
-/* @font-face {
-  font-family: 'gothic400';
-  src: url('../font/GothicA1-Regular.ttf');
-}
-@font-face {
-  font-family: 'gothicthin';
-  src: url('../font/GothicA1-Thin.ttf');
-} */
 
 .nav-link{
   font-family: 'Gothic A1';
@@ -26,7 +13,7 @@
 .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.5)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 
 #bg {
-  background-image: url("../images/bg-compressed.jpeg");
+  background-image: url("../images/bg-2xcompressed.jpeg");
   height: 80%;
   width: 100%;
   background-attachment: fixed;
@@ -34,8 +21,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .centered {
   text-align: center;
