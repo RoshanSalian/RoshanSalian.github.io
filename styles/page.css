@@ -1,22 +1,21 @@
-@font-face {
+/* @font-face {
     font-family: 'bg-title';
-    src: url('../font/Satisfy-Regular.ttf'); /*URL to font*/
-}
-@font-face {
+    src: url('../font/Satisfy-Regular.ttf');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400&family=Satisfy&display=swap');
+/* @font-face {
   font-family: 'gothic400';
   src: url('../font/GothicA1-Regular.ttf');
 }
 @font-face {
   font-family: 'gothicthin';
   src: url('../font/GothicA1-Thin.ttf');
-}
-@font-face {
-  font-family: 'gothicregular';
-  src: url('../font/GothicA1-Regular.ttf');
-}
+} */
 
 .nav-link{
-  font-family: 'gothic400';
+  font-family: 'Gothic A1';
+  font-weight: 400;
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
@@ -44,7 +43,7 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'bg-title';
+  font-family: 'Satisfy', cursive;
   color: white;
   font-size: 55px;
 }
@@ -53,7 +52,7 @@
   color: #a2de96;
 }
 
-.about{
+/* .about{
   margin: 20px;
   height: 100px;
 }
@@ -66,7 +65,7 @@
   font-family: 'header';
   color: #a2de96;
   font-size: 30px;
-}
+} */
 
 #profile{
   padding: 40px 180px;
@@ -95,32 +94,46 @@
   text-align: center;
 }
 .profile-header h1{
-  font-family: 'gothic400';
+  /* font-family: 'gothic400'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
 }
 .contact-header h1{
-  font-family: 'gothic400';
+  /* font-family: 'gothic400'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
 }
 .profile-header h6{
-  font-family: 'gothicthin';
+  /* font-family: 'gothicthin'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 100;
 }
 
 .row h3{
-  font-family: 'gothic400';
+  /* font-family: 'gothic400'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
   color: #438a5e;
 }
 
 .para{
-  font-family: 'gothicthin';
+  /* font-family: 'gothicthin'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 100;
   /* text-align: justify;
   text-justify: inter-word; */
 }
 .details h6{
   margin-top: 10px;
   margin-bottom: 0px;
-  font-family: 'gothicregular';
+  /* font-family: 'gothic400'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
 }
 .details p{
-  font-family: 'gothicthin';
+  /* font-family: 'gothicthin'; */
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 100;
 }
 /*
 .social-holder{
