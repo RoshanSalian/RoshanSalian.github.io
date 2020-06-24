@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400&family=Satisfy&family=Vollkorn&display=swap');
 
 .nav-link{
   font-family: 'Gothic A1';
@@ -13,8 +13,8 @@
 .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.5)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 
 #bg {
-  background-image: url("../images/new_bg-compressor.jpg");
-  height: 80%;
+  background-image: url("../images/space_dark.jpg");
+  height: 100%;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -28,37 +28,34 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Satisfy', cursive;
+
   color: white;
   font-size: 55px;
+}
+
+.the-name{
+  font-family: 'Vollkorn', sans-serif;
+  font-weight: 400;
+  letter-spacing: 9px;
+}
+.the-space{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+  font-weight: 200;
 }
 
 .name{
   color: #008080;
 }
 
-/* .about{
-  margin: 20px;
-  height: 100px;
-}
-
-#about-header{
-  position: absolute;
-  height: 40px;
-  text-align: center;
-  position: absolute;
-  font-family: 'header';
-  color: #a2de96;
-  font-size: 30px;
-} */
-
 #profile{
   padding: 40px 180px;
+  color: #e7dfd5;
 }
 
 #contact{
   padding: 40px 180px;
-  background-color: #008080;
+  background-color: #204051;
   text-align: center;
 }
 @media (max-width: 667px){
@@ -98,13 +95,15 @@
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
-  color: #008080;
+  color: #3b6978;
 }
 
 .para{
   /* font-family: 'gothicthin'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 100;
+  color: black;
+  font-size: 16px;
   /* text-align: justify;
   text-justify: inter-word; */
 }
@@ -114,11 +113,15 @@
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
+  color: black;
+  font-size: 16px;
 }
 .details p{
   /* font-family: 'gothicthin'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 100;
+  color: black;
+  font-size: 16px;
 }
 /*
 .social-holder{
@@ -127,7 +130,7 @@
     text-align: center;
 } */
 
-.fab {
+.fab{
     padding: 20px;
     font-size: 30px;
     color: #fff;
