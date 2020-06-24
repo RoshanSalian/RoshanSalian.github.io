@@ -34,7 +34,7 @@
 }
 
 .name{
-  color: #a2de96;
+  color: #008080;
 }
 
 /* .about{
@@ -58,7 +58,7 @@
 
 #contact{
   padding: 40px 180px;
-  background-color: #96bb7c;
+  background-color: #008080;
   text-align: center;
 }
 @media (max-width: 667px){
@@ -98,7 +98,7 @@
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
-  color: #438a5e;
+  color: #008080;
 }
 
 .para{
