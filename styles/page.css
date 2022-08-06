@@ -53,20 +53,68 @@
   color: #e7dfd5;
 }
 
+#music{
+  padding: 40px 180px;
+  background-color: #204051;
+  text-align: center;
+}
+
+#series{
+  padding: 40px 180px;
+  color: #e7dfd5;
+  text-align: center;
+}
+
 #contact{
   padding: 40px 180px;
   background-color: #204051;
   text-align: center;
 }
+
+/* Allignement problem */
+/* .underline_hover{
+  position: relative;
+  text-align: center;
+}
+
+.underline_hover:after{
+  content: '';
+  position: absolute;
+  text-align: center;
+  width: 10%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 46%;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline_hover:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+/* This thing caused allignement problem in mobile view */
 @media (max-width: 667px){
   #profile{
       padding: 60px 20px;
       min-width: 280px;
   }
+  #music{
+    padding: 60px 20px;
+    min-width: 280px;
+  }
+  #series{
+    padding: 60px 20px;
+    min-width: 280px;
+  }
   #contact{
     padding: 60px 20px;
     min-width: 280px;
   }
+
 }
 
 .profile-header{
