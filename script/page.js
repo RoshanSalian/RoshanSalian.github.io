@@ -15,3 +15,13 @@ setInterval(() => {
     // console.log(ageInYears.toFixed(10))
     resultElement.innerHTML = ageInYears.toFixed(10)
 }, 100)
+
+
+$('.carousel').carousel({
+    interval: 200
+});
+
+
+// Carousel start
+
+//Carousel end

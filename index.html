@@ -9,11 +9,9 @@
   <link rel="icon" type="image/png" href="images/favicon32.png">
   <link rel="stylesheet" href="styles/page.css">
 
-  <!-- Google Font -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1"> -->
   <!-- Bootstrap4 -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,7 +25,7 @@
       </a>
 
       <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -124,14 +122,46 @@
     </div>
 
     <!-- List of songs -->
-    <ul style="list-style: none; padding-left: 20px; list-style-position: inside;">
+    <!-- <ul style="list-style: none; padding-left: 20px; list-style-position: inside;">
       <li class="underline_hover"> <a href="https://gaana.com/song/tu-aakedekhle" style="text-decoration:none;">
           <h6 style="color: white;"> King - Tu Aake Dekhle </h6>
         </a> </li>
       <li class="underline_hover"> <a href="https://gaana.com/song/tu-aakedekhle" style="text-decoration:none;">
           <h6 style="color: white;">ATB - Ecstasy </h6>
         </a> </li>
-    </ul>
+    </ul> -->
+    <!-- HTML for the carousel -->
+    <div id="carousel-song" class="carousel slide carousel-fade song" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.youtube.com/watch?v=nHqe5D4MsCU" target="_blank"><img src="resource/atb_sml.webp"
+              alt="Thumbnail 1" class="img-fluid d-block w-100"></a>
+        </div>
+        <div class="carousel-item">
+          <img src="resource/blackeyedpeas.webp" alt="Thumbnail 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/tiesto.webp" alt="Thumbnail 5" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/heatwaves.webp" alt="Thumbnail 3" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/king.webp" alt="Thumbnail 4" class="d-block w-100">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-song" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-song" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Song list end -->
+
   </div>
 
   <!-- Series I have watched -->
@@ -141,15 +171,33 @@
       <hr>
     </div>
 
-    <!-- List of movies -->
-    <ul style="padding-left:20px; list-style: none; list-style-position: inside;">
-      <li> <a href="https://www.imdb.com/title/tt1439629/" style="text-decoration:none;">
-          <h6 style="color: #204051;"> Community </h6>
-        </a></li>
-      <li> <a href="https://www.imdb.com/title/tt1196946/" style="text-decoration:none;">
-          <h6 style="color: #204051;">Mentalist </h6>
-        </a> </li>
-    </ul>
+    <!-- HTML for the carousel -->
+    <div id="carousel-movie" class="carousel slide carousel-fade movie" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="" target="_blank"><img src="resource/breakingbad_.webp" alt="Thumbnail 1"
+              class="img-fluid d-block w-100"></a>
+        </div>
+        <div class="carousel-item">
+          <img src="resource/better_call.webp" alt="Thumbnail 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/mentalist_.webp" alt="Thumbnail 5" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/community_.webp" alt="Thumbnail 3" class="d-block w-100">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-movie" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-movie" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
   </div>
 
   <!-- Contact -->
@@ -169,13 +217,16 @@
   </div>
 
   <!-- Bootstrap js -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script> -->
   <!-- FontAwesome JS -->
   <script src="https://kit.fontawesome.com/9434496f91.js" crossorigin="anonymous"></script>
   <script src="script/page.js"></script>

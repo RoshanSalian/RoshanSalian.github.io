@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400&family=Satisfy&family=Vollkorn&display=swap');
 
-.nav-link{
+.nav-link {
   font-family: 'Gothic A1';
   font-weight: 400;
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
-            }
-        }
-.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.5)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+  }
+}
+
+.view,
+body,
+html {
+  height: 100%
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+  .navbar {
+    background-color: #1C2331
+  }
+}
 
 #bg {
   background-image: url("../images/space_dark.jpg");
@@ -33,39 +53,40 @@
   font-size: 55px;
 }
 
-.the-name{
+.the-name {
   font-family: 'Vollkorn', sans-serif;
   font-weight: 400;
   letter-spacing: 9px;
 }
-.the-space{
+
+.the-space {
   font-family: 'Gothic A1', sans-serif;
   font-size: 25px;
   font-weight: 200;
 }
 
-.name{
+.name {
   color: #008080;
 }
 
-#profile{
+#profile {
   padding: 40px 180px;
   color: #e7dfd5;
 }
 
-#music{
+#music {
   padding: 40px 180px;
   background-color: #204051;
   text-align: center;
 }
 
-#series{
+#series {
   padding: 40px 180px;
   color: #e7dfd5;
   text-align: center;
 }
 
-#contact{
+#contact {
   padding: 40px 180px;
   background-color: #204051;
   text-align: center;
@@ -97,56 +118,63 @@
 } */
 
 /* This thing caused allignement problem in mobile view */
-@media (max-width: 667px){
-  #profile{
-      padding: 60px 20px;
-      min-width: 280px;
-  }
-  #music{
+@media (max-width: 667px) {
+  #profile {
     padding: 60px 20px;
     min-width: 280px;
   }
-  #series{
+
+  #music {
     padding: 60px 20px;
     min-width: 280px;
   }
-  #contact{
+
+  #series {
+    padding: 60px 20px;
+    min-width: 280px;
+  }
+
+  #contact {
     padding: 60px 20px;
     min-width: 280px;
   }
 
 }
 
-.profile-header{
+.profile-header {
   text-align: center;
 }
-.contact-header{
+
+.contact-header {
   text-align: center;
 }
-.profile-header h1{
+
+.profile-header h1 {
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
 }
-.contact-header h1{
+
+.contact-header h1 {
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
 }
-.profile-header h6{
+
+.profile-header h6 {
   /* font-family: 'gothicthin'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 100;
 }
 
-.row h3{
+.row h3 {
   /* font-family: 'gothic400'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
   color: #3b6978;
 }
 
-.para{
+.para {
   /* font-family: 'gothicthin'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 100;
@@ -155,7 +183,8 @@
   /* text-align: justify;
   text-justify: inter-word; */
 }
-.details h6{
+
+.details h6 {
   margin-top: 10px;
   margin-bottom: 0px;
   /* font-family: 'gothic400'; */
@@ -164,13 +193,15 @@
   color: black;
   font-size: 16px;
 }
-.details p{
+
+.details p {
   /* font-family: 'gothicthin'; */
   font-family: 'Gothic A1', sans-serif;
   font-weight: 100;
   color: black;
   font-size: 16px;
 }
+
 /*
 .social-holder{
     margin-top:60px;
@@ -178,11 +209,50 @@
     text-align: center;
 } */
 
-.fab{
-    padding: 20px;
-    font-size: 30px;
-    color: #fff;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
+
+/* Song list css :start */
+.song {
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+}
+
+
+@media (max-width: 992px) {
+  .song {
+    width: 55%;
+    height: 55%;
+    margin: 0px auto;
+    border-radius: 10%;
+  }
+}
+
+/* Song list css end */
+
+/* Movie start */
+
+.movie {
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+
+@media (max-width: 992px) {
+  .movie {
+    width: 55%;
+    height: 55%;
+    margin: 0px auto;
+    border-radius: 10%;
+  }
+}
+
+/* Movie end */
