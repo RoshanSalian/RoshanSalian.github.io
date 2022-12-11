@@ -1,0 +1,9 @@
+- Change font of banner - Looks too Wide
+- Change font on about - Almost invisible in desktop
+- Add Insta
+- Change About section
+
+
+- Add a function where on clicking image of movies, it should expand to a card and show details from imdb
+ or the display should be in card format by default for desktop screen and a image-poster format for mobile
+ screen.

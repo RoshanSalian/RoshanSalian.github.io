@@ -1,0 +1,72 @@
+// Get the image element with the ID "myImage"
+const img = document.getElementById("myImage");
+
+// Add an event listener that listens for clicks on the image
+img.addEventListener("click", function() {
+  // Create the card element
+  const card = document.createElement("div");
+  card.classList.add("card");
+
+  // Create the image element that will be added to the card
+  const cardImg = document.createElement("img");
+  cardImg.classList.add("card-img-top");
+  cardImg.src = img.src;
+
+  // Create the card body element
+  const cardBody = document.createElement("div");
+  cardBody.classList.add("card-body");
+
+  // Create the card title element
+  const cardTitle = document.createElement("h5");
+  cardTitle.classList.add("card-title");
+  cardTitle.innerText = "Image Title";
+
+  // Create the card text element
+  const cardText = document.createElement("p");
+  cardText.classList.add("card-text");
+  cardText.innerText = "Image Description";
+
+  // Append the image, title, and text to the card body
+  cardBody.appendChild(cardTitle);
+  cardBody.appendChild(cardText);
+
+  // Append the image and card body to the card
+  card.appendChild(cardImg);
+  card.appendChild(cardBody);
+
+  // Replace the image element with the card element
+  img.parentNode.replaceChild(card, img);
+});
+
+
+----------------------------------------------------------
+
+/* Style the card element */
+.card {
+  width: 50%;
+}
+
+/* Style the card image */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the card body */
+.card-body {
+  padding: 2rem;
+}
+
+/* Style the card title */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Style the card text */
+.card-text {
+  font-size: 1.2rem;
+}
+
+-------------------------------------------------------

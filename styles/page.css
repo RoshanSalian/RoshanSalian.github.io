@@ -225,7 +225,6 @@ html {
   margin: 0px auto;
 }
 
-
 @media (max-width: 992px) {
   .song {
     width: 55%;
@@ -256,3 +255,8 @@ html {
 }
 
 /* Movie end */
+
+/* 3D Carousel */
+
+
+/* 3D carousel end */

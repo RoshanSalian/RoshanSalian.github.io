@@ -1,4 +1,0 @@
-- Change font of banner - Looks too Wide
-- Change font on about - Almost invisible in desktop
-- Add Insta
-- Change About section
